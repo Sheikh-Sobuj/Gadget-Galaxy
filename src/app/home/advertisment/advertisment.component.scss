@@ -1,0 +1,120 @@
+section{
+  overflow-x: hidden;
+}
+
+.advertisement-section {
+  position: relative;
+}
+
+.advertisement-details {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 40px;
+}
+
+.advertisement-title {
+  width: 65%;
+  color: var(--navyBlue);
+}
+.advertisement-title h4{
+  font-size: 32px;
+}
+.advertisement-desc {
+  width: 55%;
+}
+/*--responsive style--*/
+@media (min-width: 768px){
+  .advertisement-desc {
+    margin: 20px 0;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .advertisement-title h4 {
+    font-size: 24px;
+  }
+
+  .advertisement-desc p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 868px) {
+  .advertisement-title h4 {
+    font-size: 20px;
+  }
+
+  .advertisement-desc p {
+    font-size: 12px;
+  }
+
+
+}
+
+@media (max-width: 650px) {
+  .advertisement-title h4 {
+    font-size: 16px;
+  }
+
+  .advertisement-desc p {
+    font-size: 12px;
+  }
+
+  .advertisement-btn button {
+    height: 30px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .advertisement-title h4 {
+    font-size: 14px;
+  }
+
+  .advertisement-desc p {
+    font-size: 10px;
+  }
+
+  .advertisement-btn button {
+    height: 26px;
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .advertisement-title h4 {
+    font-size: 12px;
+  }
+
+  .advertisement-desc p {
+    font-size: 8px;
+  }
+
+  .advertisement-btn button {
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .advertisement-title {
+    width: 90%;
+  }
+
+  .advertisement-desc {
+    width: 90%;
+  }
+
+  .advertisement-details {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 460px) {
+
+  .advertisement-desc {
+    margin-top: -5px;
+  }
+}

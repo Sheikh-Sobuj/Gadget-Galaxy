@@ -1,0 +1,110 @@
+.row{
+  --bs-gutter-x: 0;
+}
+.login-area {
+  background: var(--body) !important;
+}
+.login-card {
+  margin: 20px 50px 50px;
+}
+.routing-menu {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.routing-menu a,
+.routing-menu i {
+  font-size: 16px;
+  color: #8D8E93;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.login-form{
+  padding: 50px 0;
+}
+.login-title h4{
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.form-label{
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+.form-check-label{
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+input::placeholder{
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: none;
+}
+form,.login-btn{
+  margin-top: 50px;
+}
+.login-btn button{
+  background: #00243C;
+  font-family: "Poppins", sans-serif;
+}
+.another-login{
+  margin-top: 30px;
+}
+.login-with h4{
+  color: var(--navyBlue);
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.google-img img,.fb-img img{
+  width: 26px;
+  height: 26px;
+}
+.login-with{
+  margin-right: 60px;
+}
+.google-img,
+.create-account{
+  margin-right: 30px;
+}
+.create-account h6{
+  font-size: 16px;
+  color: var(--navyBlue);
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+/*--responsive style--*/
+@media screen and (max-width: 768px) {
+  .login-card {
+    margin: 30px;
+  }
+  .login-form{
+    padding: 50px 100px;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  .login-card {
+    margin: 20px;
+  }
+  .login-form{
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-card {
+    margin: 10px;
+  }
+  .login-form{
+    padding: 20px;
+  }
+  .login-with h4{
+    font-size: 20px;
+  }
+}

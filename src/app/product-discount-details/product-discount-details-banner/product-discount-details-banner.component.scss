@@ -1,0 +1,243 @@
+section{
+  overflow-x: hidden;
+}
+.routing-menu {
+  margin-top: 20px;
+}
+
+.routing-menu a,
+.routing-menu i {
+  font-size: 16px;
+  color: #8D8E93;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.product-details {
+  margin-top: 70px;
+}
+/*.carousel-inner{
+  padding: 30px;
+}*/
+.carousel-img img{
+  padding-top: 20px;
+}
+.carousel-item {
+  position: relative;
+  border-radius: 8px;
+}
+.carousel-img img{
+  background: var(--offWhite);
+  border-radius: 8px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--navyBlue);
+}
+
+.carousel-indicators {
+  margin-bottom: -40px;
+}
+
+.product-details-title h4 {
+  font-size: 32px;
+  color: var(--navyBlue);
+  font-weight: 600;
+}
+
+.product-details-info {
+  margin: 40px 0;
+}
+
+.product-details-info button span {
+  font-weight: 600;
+}
+
+.product-details-info button {
+  background: var(--offWhite);
+  color: var(--navyBlue);
+  margin-right: 24px;
+  padding: 10px 12px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.product-details-key-feature h4,
+.product-details-key-feature li,
+.increment-decrement span {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.view-more-img {
+  margin-top: 13px;
+}
+
+.all-img img,
+.increment-decrement,
+.add-buy-btn button {
+  margin-right: 24px;
+}
+
+.product-details-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -10%;
+}
+
+.increment-decrement button,
+.increment-decrement span {
+  background: var(--offWhite);
+}
+
+.increment-decrement button {
+  width: 24px;
+  height: 24px;
+}
+
+.increment-decrement span {
+  padding: 0 14px;
+}
+
+/*-----save price----*/
+.save-price {
+  position: absolute;
+  background: var(--orange);
+  width: 140px;
+  height: 30px;
+  top: 3%;
+  left: 0;
+  margin-bottom: 30px;
+}
+
+.save-price p {
+  position: absolute;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.save-price span {
+  position: absolute;
+  background: var(--offWhite);
+  top: -5px;
+  left: 85%;
+  width: 30px;
+  height: 50px;
+  transform: rotate(30deg);
+
+}
+/*--responsive style--*/
+@media screen and (mIN-width: 768px){
+  .product-details-info button{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .product-details-info button{
+    margin-right: 5px;
+  }
+  .carousel {
+    margin-top: 80px;
+  }
+  .product-details-btn{
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .product-details-btn{
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 991px){
+  .all-img{
+    display: flex;
+    justify-content: center;
+  }
+  .product-details-btn{
+    left: 38%;
+    margin-top: 12%;
+  }
+  .product-details-info button {
+    margin-right: 15px;
+    padding: 6px 8px;
+
+  }
+}
+@media screen and (max-width: 850px){
+  .product-details-btn {
+    left: 32%;
+    margin-top: 15%;
+  }
+  .product-details-info button {
+    margin-right: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+
+  }
+}
+@media screen and (max-width: 768px){
+  .product-details-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+  }
+  .increment-decrement{
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 600px){
+  .product-details-btn{
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 576px){
+  .product-details-btn{
+    margin-top: 25%;
+  }
+}
+@media screen and (max-width: 500px){
+  .product-details-btn{
+    margin-top: 30%;
+  }
+  .all-img img{
+    margin-right: 5px;
+  }
+  .common-btn{
+    padding: 5px 10px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px){
+  .product-details-btn{
+    margin-top: 40%;
+  }
+  .all-img img{
+    margin-right: 5px;
+  }
+  .common-btn{
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .increment-decrement{
+    margin-left: -95px;
+  }
+
+  .add-buy-btn{
+    margin-left: -60px;
+  }
+  .all-img img{
+    width: 70px;
+  }
+}

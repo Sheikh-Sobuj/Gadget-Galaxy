@@ -1,0 +1,41 @@
+section{
+  overflow-x: hidden;
+}
+.laptop-card-price p{
+  font-weight: bold;
+}
+del{
+  font-size: 13px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+/*-----save price----*/
+.save-price {
+  position: absolute;
+  background: var(--orange);
+  width: 140px;
+  height: 30px;
+  top: 3%;
+  left: 0;
+  margin-bottom: 30px;
+}
+
+.save-price p {
+  position: absolute;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.save-price span {
+  position: absolute;
+  background: var(--offWhite);
+  top: -5px;
+  left: 85%;
+  width: 30px;
+  height: 50px;
+  transform: rotate(30deg);
+}

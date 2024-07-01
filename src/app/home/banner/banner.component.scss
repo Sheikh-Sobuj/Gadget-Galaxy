@@ -1,0 +1,167 @@
+/*.row{
+  --bs-gutter-x: 0;
+}*/
+section{
+  overflow-x: hidden;
+}
+.banner-section {
+  padding-top: 50px;
+}
+.carousel-inner{
+  padding-bottom: 30px;
+  border-radius: 8px;
+}
+.carousel-caption {
+  margin-bottom: 10%;
+}
+
+/*---responsive style---*/
+@media (max-width: 1600px) {
+  .carousel-caption {
+    padding-left: 15px;
+    margin-bottom: 7%;
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .carousel-caption {
+    padding-left: 15px;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption {
+    padding-left: 15px;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .carousel-caption {
+    padding-left: 10px;
+    margin-bottom: 3%;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .carousel-caption {
+    margin-left: -20px;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 868px) {
+  .carousel-caption {
+    margin-left: -20px;
+    margin-bottom: 0;
+  }
+  .common-btn {
+    height: 40px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /*
+  .margin-y {
+    margin: 30px 0;
+  }
+
+  .margin-y1 {
+    margin: 30px 0 10px;
+  }
+
+  .padding-x {
+    padding: 0 30px;
+  }
+
+  .padding-x1 {
+    padding: 0 30px;
+  }
+  */
+
+  .carousel-caption {
+    margin-left: -5px;
+    margin-bottom: 20px;
+  }
+  .common-btn {
+    padding: 10px 16px;
+  }
+
+  .screen-md {
+    right: 3px;
+  }
+
+  .search {
+    margin-left: -40px;
+  }
+
+  .padding {
+    padding: 0 45px;
+  }
+}
+
+@media (max-width: 650px) {
+  .carousel-caption {
+    margin-left: -15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    margin-bottom: 2px;
+  }
+
+  .carousel-caption button {
+    height: 40px;
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 550px){
+  .carousel-caption {
+    margin-bottom: -5px;
+  }
+}
+@media (max-width: 500px) {
+  .carousel-caption {
+    padding-left: 12px;
+  }
+
+  .carousel-caption button {
+    height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 460px) {
+
+  .carousel-caption {
+    margin-bottom: -10px;
+  }
+
+  .carousel-caption button {
+    height: 28px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 400px){
+  .carousel-caption {
+    margin-left: -20px;
+    margin-bottom: -20px;
+  }
+}
+@media (max-width: 370px){
+  .carousel-caption {
+    margin-left: -25px;
+    margin-bottom: -30px;
+  }
+}
